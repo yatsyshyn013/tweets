@@ -1,7 +1,7 @@
 {
   "name": "tweets",
   "private": true,
-  "homepage": "https://yatsyshyn013.github.io/tweets/tweets/",
+  // "homepage": "https://yatsyshyn013.github.io/tweets/tweets/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
