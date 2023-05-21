@@ -48,7 +48,7 @@ const Home = () => {
             <div>
                 Тестове завдання Tweets
             </div>
-                <StyledLink to="/tweets" state={{ from: location }} style={{fontSize: '20px', margin: '0'}}>go to tweets</StyledLink>
+                <StyledLink to="/tweet" state={{ from: location }} style={{fontSize: '20px', margin: '0'}}>go to tweets</StyledLink>
             </div>
         </div>
     // <div>
