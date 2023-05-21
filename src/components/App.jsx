@@ -1,6 +1,4 @@
 import { useState, useEffect } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 import './App.css'
 import { fetchUsers } from '../services/UsersApi'
 import TweetList from './TweetList/TweetList'
@@ -23,7 +21,7 @@ function App() {
   }, [page])
 
   const handleChange = (e, p) => {
-  // console.log();
+
       setPage(p)
   }
 

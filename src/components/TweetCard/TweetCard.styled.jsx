@@ -14,8 +14,7 @@ export const LogoArea = styled.div`
     height: 215px;
 
     position: relative;
-    /* border-color: 0px 4.39163px 4.39163px rgba(0, 0, 0, 0.06), inset 0px -2.19582px 4.39163px #AE7BE3, inset 0px 4.39163px 3.29372px #FBF8FF;; */
-    /* background: #EBD8FF; */
+   
     
     :after{
 
@@ -26,9 +25,7 @@ export const LogoArea = styled.div`
         right: 0;
          top: 0;
         border-bottom: 5px solid #EBD8FF;
-        /* background: #EBD8FF; */
-        /* box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06), inset 0px -1.71846px 3.43693px #AE7BE3, inset 0px 3.43693px 2.5777px #FBF8FF; */
-    }
+        }
 `
 
 export const MainImage = styled.img`
@@ -76,11 +73,10 @@ export const AvatarImg = styled.img`
     border: 5px solid #EBD8FF;
     position: relative;
     background: linear-gradient(114.99deg, #471CA9 -0.99%, #5736A3 54.28%, #4B2A99 78.99%);
-    /* border-color: 0px 4.39163px 4.39163px rgba(0, 0, 0, 0.06), inset 0px -2.19582px 4.39163px #AE7BE3, inset 0px 4.39163px 3.29372px #FBF8FF;; */
-    /* background: #EBD8FF; */
+
     
     :after{
-        /* content: ''; */
+   
         content: '';
          position: absolute;
          bottom: 0;
@@ -93,9 +89,5 @@ export const AvatarImg = styled.img`
 
 export const AvatarBorder = styled.div`
     border-radius: 50%;
-    /* border: 1px solid; */
-
-    /* background: #EBD8FF;
-box-shadow: 0px 4.39163px 4.39163px rgba(0, 0, 0, 0.06), inset 0px -2.19582px 4.39163px #AE7BE3, inset 0px 4.39163px 3.29372px #FBF8FF; */
-/* border-radius: 13.1749px; */
+  
 `
