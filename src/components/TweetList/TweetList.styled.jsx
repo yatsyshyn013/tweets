@@ -1,5 +1,13 @@
 import styled from '@emotion/styled'
 
+export const ListOfTweets = styled.ul`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+`
+
+
 export const UserItem = styled.div`
     width: 360px;
     height: 460px;
