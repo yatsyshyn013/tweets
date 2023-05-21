@@ -69,7 +69,7 @@ const TweetCard = ({ userInfo }) => {
         <StyledCard>
             <LogoArea>
                 <Logo src="/src/assets/Vector.png" alt="" width="76px" height="22px"/>
-                <MainImage src="//src/assets/picture2 1.png" alt="" width="308px" height="168px"/>
+                <MainImage src="/src/assets/picture2 1.png" alt="" width="308px" height="168px"/>
             </LogoArea>
             <div>
                     <AvatarBorder>
