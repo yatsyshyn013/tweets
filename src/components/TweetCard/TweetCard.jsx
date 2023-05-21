@@ -2,7 +2,8 @@ import { useState, useEffect } from 'react'
 import PropTypes from 'prop-types';
 import { putFollow } from '../../services/UsersApi';
 import { AvatarImg, FollowBtn, Logo, LogoArea, MainImage, StyledCard, StyledText, AvatarBorder } from './TweetCard.styled';
-
+import MainPhoto from '../../assets/picture2 1.png'
+import CompanyLogo from '../../assets/Vector.png'
 
 const TweetCard = ({ userInfo }) => {
     const { id, tweets, followers, avatar } = userInfo
@@ -68,8 +69,8 @@ const TweetCard = ({ userInfo }) => {
     return(
         <StyledCard>
             <LogoArea>
-                <Logo src="/src/assets/Vector.png" alt="" width="76px" height="22px"/>
-                <MainImage src="/src/assets/picture2 1.png" alt="" width="308px" height="168px"/>
+                <Logo src={CompanyLogo} alt="Logo company" width="76px" height="22px"/>
+                <MainImage src={MainPhoto} alt="Background photo" width="308px" height="168px"/>
             </LogoArea>
             <div>
                     <AvatarBorder>
