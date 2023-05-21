@@ -26,7 +26,7 @@ export const BackHomeBtn = styled(Link)`
     /* display: flex;
     justify-content: center;
     align-items: center; */
-    color: #5CD3A8;
+    color: #EBD8FF;
     
 `
 

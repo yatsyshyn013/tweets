@@ -12,7 +12,7 @@ export const NavigationContainer = styled.header`
                     left: '0',
                     right: '0'}} */
 
-                    position: fixed;
+position: fixed;
 top: 0;
 left: 0;
 right: 0;
