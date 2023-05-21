@@ -11,7 +11,7 @@ const SharedLayout = () => {
         
         <nav>
         <StyledLink to="/" end>Home</StyledLink>
-        <StyledLink to="/tweets" >Tweets</StyledLink>
+        <StyledLink to="/tweet" >Tweets</StyledLink>
         </nav>
         </NavigationContainer>
         <Suspense fallback={<div>Loading page...</div>}>
