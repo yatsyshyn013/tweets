@@ -40,6 +40,10 @@ const TweetCard = ({ userInfo }) => {
 
     }
 
+    function numberWithCommas(followersNumber) {
+    return followersNumber.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
     return(
         <StyledCard>
             <LogoArea>
@@ -51,7 +55,7 @@ const TweetCard = ({ userInfo }) => {
                         <AvatarImg src={avatar} alt="" width='62px' /> 
                     </AvatarBorder>
             <StyledText>{tweets} Tweets</StyledText>
-            <StyledText>{followersCount} Followers</StyledText>
+            <StyledText>{numberWithCommas(followersCount)} Followers</StyledText>
                 <FollowBtn
                     type='button'
                     onClick={onFollowBtnClick}
