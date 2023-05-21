@@ -10,7 +10,7 @@ const SharedLayout = () => {
         <NavigationContainer>
         
         <nav>
-        <StyledLink to="/" end>Home</StyledLink>
+        <StyledLink to="/">Home</StyledLink>
         <StyledLink to="/tweet" >Tweets</StyledLink>
         </nav>
         </NavigationContainer>
