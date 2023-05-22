@@ -2,7 +2,7 @@ import {  useRef   } from 'react'
 import PropTypes from 'prop-types';
 import TweetCard from '../TweetCard/TweetCard';
 import { BackHomeBtn, BtnContainer, ListOfTweets, UserItem } from './TweetList.styled';
-import { Link, useParams, Outlet, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { FaArrowLeft } from 'react-icons/fa/';
 
 
