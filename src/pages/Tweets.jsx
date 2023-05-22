@@ -31,7 +31,7 @@ const Tweets = () => {
         if (option === "all") {
             // eslint-disable-next-line no-inner-declarations
             async function fetch() {
-                const response = await fetchUsers({ fetchInfo: `?page=${page}&limit=3` })
+                const response = await fetchUsers({ fetchInfo: `?page=1&limit=3` })
                 setFilteredUsers([...response.data])
             }
 
@@ -42,7 +42,7 @@ const Tweets = () => {
         if (option === "follow") {
             // eslint-disable-next-line no-inner-declarations
             async function fetch() {
-                const response = await fetchUsers({ fetchInfo: `?filter=false&page=1&limit=12` })
+                const response = await fetchUsers({ fetchInfo: `?filter=false&limit=12` })
                 setFilteredUsers([...response.data])
             }
             
