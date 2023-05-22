@@ -22,6 +22,7 @@ export async function putFollow({id, isFollow, followersCount}) {
         const updateFollowers = isFollow ? followersCount + 1 : followersCount - 1
         const response = await axios.put(`${id}`, {
             followers: updateFollowers,
+            isFollowed: isFollow,
         })
         return response
 

@@ -23,10 +23,11 @@ export const UserItem = styled.div`
 `
 
 export const BackHomeBtn = styled(Link)`
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
     color: #EBD8FF;
+
     
 `
 
